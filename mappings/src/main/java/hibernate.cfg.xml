@@ -12,7 +12,9 @@
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 		<property name="hbm2ddl.auto">create</property>
-		<mapping class="oneOneMapping.entities.Question" />
-		<mapping class="oneOneMapping.entities.Answer" />
+		<mapping class="oneOneMapping.entities.Question"/>
+		<mapping class="oneOneMapping.entities.Answer"/>
+		<mapping class="OneManyMapping.entities.Laptop"/>
+		<mapping class="OneManyMapping.entities.Person"/>
 	</session-factory>
 </hibernate-configuration>
